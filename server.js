@@ -30,7 +30,7 @@ app.get('/api/hello', async (req, res) => {
 });
 
 app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, 'index.html'));
+    res.sendFile(path.join(__dirname, 'server.html'));
 });
 
 app.listen(PORT, () => {
